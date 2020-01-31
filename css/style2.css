@@ -1,0 +1,41 @@
+
+/*===== Button fill on hover =====*/
+/* Fill from bottom */
+.button-fill-bottom {
+box-shadow: inset 0px 0px 0px #2F3B47;
+transition: all 0.5s !important;
+}
+
+.button-fill-bottom:hover {
+box-shadow: inset 0px -80px 0px #2F3B47;
+}
+
+/* Fill from top */
+.button-fill-top {
+box-shadow: inset 0px 0px 0px #2F3B47;
+transition: all 0.5s !important;
+}
+
+.button-fill-top:hover {
+box-shadow: inset 0px 80px 0px #2F3B47;
+}
+
+/* Fill from left */
+.button-fill-left {
+box-shadow: inset 0px 0px 0px #2F3B47;
+transition: all 0.5s !important;
+}
+
+.button-fill-left:hover {
+box-shadow: inset 150px 0px 0px #2F3B47;
+}
+
+/* Fill from right */
+.button-fill-right {
+box-shadow: inset 0px 0px 0px #2F3B47;
+transition: all 0.5s !important;
+}
+
+.button-fill-right:hover {
+box-shadow: inset -150px 0px 0px #2F3B47;
+}

@@ -13,7 +13,7 @@
 				if($(getElement).length){
 					var getOffset = $(getElement).offset().top;
 					var targetDistance1 = -200;
-					var targetDistance2 = 0;
+					var targetDistance2 = -100;
 					
 						$('html,body').animate({
 							scrollTop:getOffset + targetDistance2
@@ -108,3 +108,40 @@ $(".owl-item").click(function(){
 			$('.sidebar-logo').removeClass('sidebar-logo-display');
 		}
 	});
+
+
+
+//------------- Collapse elements + switch buttons ----------------
+
+	$(document).ready(function() {
+		$('.coll2').collapsible();
+		
+		$('.nro-tarjeta').click(function(){
+			$('.coll2').collapsible('close', 0);
+		})
+	});
+	
+	$(document).ready(function(){
+		$('.btn1').click(function(){
+			$(this).addClass('button-fill-right');
+			$(this).addClass('color-blanco');
+			$('#cards2').addClass('card-close');
+			$('#cards1').removeClass('card-close');
+			$('.btn2').removeClass('button-fill-left');
+			$('.btn2').removeClass('color-blanco');
+			$('.btn-img1').attr('src','img/iconos-small/IconoTarjeta.svg');
+			$('.btn-img2').attr('src','img/iconos-small/IconoTarjeta2.svg');
+			$('.coll2').collapsible('close', 0)
+		})
+		$('.btn2').click(function(){
+			$(this).addClass('button-fill-left');
+			$(this).addClass('color-blanco');
+			$('#cards1').addClass('card-close');
+			$('#cards2').removeClass('card-close');
+			$('.btn1').removeClass('button-fill-right');
+			$('.btn1').removeClass('color-blanco');
+			$('.btn-img2').attr('src','img/iconos-small/IconoTarjeta.svg');
+			$('.btn-img1').attr('src','img/iconos-small/IconoTarjeta2.svg');
+			$('.coll2').collapsible('close', 0)
+		})
+	})

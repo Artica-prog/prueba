@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Billetera</title>
+	<!---------- Estilos --------->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- materialize css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="css/style1.css">
+
+
+	<!---------- Scripts --------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+	<script src="https://use.fontawesome.com/79a5a313e8.js"></script>
+
+
+<script>
+$(document).ready(function(){
+
+})
+</script>
+
+</head>
+
+<body>
+	<div class="container" style="position: relative; width: 400px; margin-top: 10%">
+		<div class="form-container-inner form-b">
+			<div class="form-header fh2">
+				<img src="img/Billetera.svg" alt="">
+			</div>
+			<div class="modal-b-contrainer">
+				<h6>RECARGAR BILLETERA</h6>
+				<div class="linea-gris"></div>
+				<div class="fci-inner">
+					<div class="row">
+						<form class="col s12 fr-padding-0" onsubmit="return validar();" id="">
+							<div class="fr-clean">
+								<div class="row">
+									<div class="input-field col s12">
+										<input placeholder="" id="monto" type="text" class="validate">
+										<label for="monto">Monto de recarga: </label>
+									</div>
+								</div>
+								<p>Seleccione el método de pago</p>
+								<div class="flex-buttons">
+									<div class="btns-div btn1 button-fill-right color-blanco"><img src="img/iconos-small/IconoTarjeta.svg" alt="" class="btn-img1"><span>Tarjeta de Débito</span>
+									</div>
+									<div class="btns-div btn2"><img src="img/iconos-small/IconoTarjeta2.svg" alt="" class="btn-img2"> <span>Tarjeta de Crédito</span></div>
+								</div>
+								<div class="switch-cards">
+								<div id="cards1" class="">
+									<ul class="collapsible coll2">
+										<li>
+											<div class="collapsible-header">
+												<span>Seleccione su tarjeta de Débito</span>
+											</div>
+											<div class="collapsible-body">
+												<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
+												<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div id="cards2" class="card-close">
+									<ul class="collapsible coll2">
+										<li>
+											<div class="collapsible-header">
+												<span>Seleccione su tarjeta de Crédito</span>
+											</div>
+											<div class="collapsible-body">
+												<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
+												<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
+												<div class="nro-tarjeta"><span>Tarjeta Venezuela N° ************ 6819</span></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								</div>
+								<div class="center-align" style="margin-top: 20px;">
+									<input class="btn-turquesa btn-tiny" type="button" value="Recargar">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+
+	$(document).ready(function() {
+		$('.coll2').collapsible();
+		
+		$('.nro-tarjeta').click(function(){
+			$('.coll2').collapsible('close', 0);
+		})
+	});
+	
+	$(document).ready(function(){
+		$('.btn1').click(function(){
+			//$(this).addClass('btn-morado');
+			$(this).addClass('button-fill-right');
+			$(this).addClass('color-blanco');
+			$('#cards2').addClass('card-close');
+			$('#cards1').removeClass('card-close');
+			//$('.btn2').removeClass('btn-morado');
+			$('.btn2').removeClass('button-fill-left');
+			$('.btn2').removeClass('color-blanco');
+			$('.btn-img1').attr('src','img/iconos-small/IconoTarjeta.svg');
+			$('.btn-img2').attr('src','img/iconos-small/IconoTarjeta2.svg');
+			$('.coll2').collapsible('close', 0)
+		})
+		$('.btn2').click(function(){
+			//$(this).addClass('btn-morado');
+			$(this).addClass('button-fill-left');
+			$(this).addClass('color-blanco');
+			$('#cards1').addClass('card-close');
+			$('#cards2').removeClass('card-close');
+			//$('.btn1').removeClass('btn-morado');
+			$('.btn1').removeClass('button-fill-right');
+			$('.btn1').removeClass('color-blanco');
+			$('.btn-img2').attr('src','img/iconos-small/IconoTarjeta.svg');
+			$('.btn-img1').attr('src','img/iconos-small/IconoTarjeta2.svg');
+			$('.coll2').collapsible('close', 0)
+		})
+	})
+</script>
+
+<html>
