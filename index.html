@@ -49,7 +49,7 @@
 					<a href=""><img src="img/iconos-small/IconoNotificaciones.svg" alt=""></a>
 				</div>
 				<div class=" menu-item">
-					<a href=""><img src="img/iconos-small/PuntosMenu.svg" alt=""></a>
+					<a class='dropdown-trigger' href='#' data-target='dropdown1'><img src="img/iconos-small/PuntosMenu2.svg" alt=""></a>
 				</div>
 			</div>
 		</nav>
@@ -81,7 +81,7 @@
 					</div>
 					<i class="fa fa-angle-right" aria-hidden="true"></i>
 				</li>-->
-				<li>
+				<li class="modal-trigger line-vert-blan" href="#modal1">
 					<div class="sc-img"><img src="img/iconos-small/EnviarPago01.svg" alt=""></div>
 					<div class="sc-text">
 					<p>ENVIAR PAGO</p>
@@ -672,6 +672,13 @@ $('.owl-one').owlCarousel({
 	});*/
 </script>
 
+<script>
+
+	$(document).ready(function() {
+		$('.modal').modal();
+	});
+</script>
+	
 <script>
   // Or with jQuery
 
