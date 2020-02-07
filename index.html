@@ -1,302 +1,647 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Documento nuevo</title>
-<!---------- Estilos --------->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.theme.default.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!-- materialize css -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		<link rel="stylesheet" href="css/style1.css">
 
-		
-<!---------- Scripts --------->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		
-		<!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Documento nuevo</title>
+	<!---------- Estilos --------->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- materialize css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="css/style1.css">
 
-		
-<script src="https://use.fontawesome.com/79a5a313e8.js"></script>
 
-	</head>
-	
-		
+	<!---------- Scripts --------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+	<script src="https://use.fontawesome.com/79a5a313e8.js"></script>
+
+</head>
+
+
 <body>
 	<header>
 		<nav>
 			<div class="head-img">
 				<img src="img/pagatranquilo.jpg" alt="" class="desktop-logo">
 				<img src="img/iconos-small/IconoPayall02.svg" alt="" class="mobil-logo">
-			</div>		
-			
+			</div>
+
 			<div class="icons-container">
-			
+
 				<div class="menu-item">
 					<!--<i class="material-icons">notifications_none</i>-->
-					<a href="" class="a-saldo">
+					<a href="#" class="a-saldo">
 						<img src="img/iconos-small/Saldo01.svg" alt="">
 						<p>1.445.152.00 BS</p>
 					</a>
-					
+
 				</div>
 				<div class="menu-item">
 					<!--<i class="material-icons">notifications_none</i>-->
 					<a href=""><img src="img/iconos-small/IconoNotificaciones.svg" alt=""></a>
 				</div>
-				<div class=" menu-item">
-					<a class='dropdown-trigger' href='#' data-target='dropdown1'><img src="img/iconos-small/PuntosMenu2.svg" alt=""></a>
+				<div class=" menu-item dropdown-trigger mi-dpd" data-target='dropdown1'>
+					<a><img src="img/iconos-small/PuntosMenu2.svg" alt=""></a>
 				</div>
 			</div>
 		</nav>
-			<div class="gradient-line"></div>
+		<div class="gradient-line"></div>
 	</header>
-	
-	
-  <!-- Dropdown Structure -->
-  <ul id='dropdown1' class='dropdown-content drop-menu'>
-    <li><a class="modal-trigger" href="#modal-billetera"><img src="img/iconos-small/IconoBilletera.svg" alt=""><p>RECARGAR BILLETERA</p></a></li>
-    <li><a href="#!"><img src="img/iconos-small/IconoCuenta.svg" alt=""><p>CUENTA</p></a></li>
-    <li><a href="#!"><img src="img/iconos-small/IconoPregunta.svg" alt=""><p>AYUDA</p></a></li>
-    <li><a href="#!"><img src="img/iconos-small/IconoCerrarSesion.svg" alt=""><p>CERRAR SESIÓN</p></a></li>
-  </ul>
-  
 
-		
-<!----------Side Bar --------->	
-<div class="block-separador"></div>
+
+
+	<!-- Dropdown Structure -->
+	<ul id='dropdown1' class='dropdown-content drop-menu'>
+		<li><a class="modal-trigger" href="#modal-billetera"><img src="img/iconos-small/IconoBilletera.svg" alt="">
+				<p>RECARGAR BILLETERA</p>
+			</a></li>
+		<li><a href="#!"><img src="img/iconos-small/IconoCuenta.svg" alt="">
+				<p>CUENTA</p>
+			</a></li>
+		<li><a href="#!"><img src="img/iconos-small/IconoPregunta.svg" alt="">
+				<p>AYUDA</p>
+			</a></li>
+		<li><a href="#!"><img src="img/iconos-small/IconoCerrarSesion.svg" alt="">
+				<p>CERRAR SESIÓN</p>
+			</a></li>
+	</ul>
+
+
+
+	<!----------Side Bar --------->
+	<div class="block-separador"></div>
 	<div class="" id="sidebar">
 		<div class="sidebar-container">
 			<div class="sidebar-logo"><img src="img/iconos-small/LogoPayallblanco01.svg" alt=""></div>
 			<ul>
-				<!--<li>
-					<div class="sc-img"><img src="img/iconos-small/Saldo01.svg" alt=""></div>
-					<div class="sc-text">
-					<p>TU SALDO</p>
-					<span>854.842 BS</span>
-					</div>
-					<i class="fa fa-angle-right" aria-hidden="true"></i>
-				</li>-->
 				<li class="modal-trigger line-vert-blan" href="#modal1">
 					<div class="sc-img"><img src="img/iconos-small/EnviarPago01.svg" alt=""></div>
 					<div class="sc-text">
-					<p>ENVIAR PAGO</p>
+						<p>ENVIAR PAGO</p>
+
 					</div>
 					<i class="fa fa-angle-right" aria-hidden="true"></i>
 				</li>
 				<li>
 					<div class="sc-img"><img src="img/iconos-small/SolicitarPago01.svg" alt=""></div>
 					<div class="sc-text">
-					<p>SOLICITAR PAGO</p>
+						<p>SOLICITAR PAGO</p>
 					</div>
 					<i class="fa fa-angle-right" aria-hidden="true"></i>
 				</li>
 			</ul>
-			<!--<div class="switch__container">
-			  <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
-			  <label for="switch-shadow"></label>
-			  <span>Ocultar saldo</span>
-			</div>-->
 		</div>
-	</div>	
-	
-			
+	</div>
+
+
 	<div class="main-container">
-			
-<!---------- Slider Header --------->	
-	<section id="slider">
-		<!--<img src="img/Rotador03.jpg" alt="">-->
-		  <div class="carousel carousel-slider">
-			<a class="carousel-item" href="#one!"><img src="img/Rotador-head1.jpg"></a>
-			<a class="carousel-item" href="#two!"><img src="img/Rotador-head2.jpg"></a>
-			<a class="carousel-item" href="#one!"><img src="img/Rotador-head1.jpg"></a>
-			<a class="carousel-item" href="#two!"><img src="img/Rotador-head2.jpg"></a>
-		  </div>
-	</section>
-			
-<!-- Servicios -->
-<!-- La clase "mc1" sirve para identificar que carousel es-->
-<!-- La clase "cnav1" sirve para identificar a que carousel pertenece el navegador-->
-<!-- En los numeros utilizados en las clases de de "mc1" y "cnav1" son para identificar a que carousel pertenecen dichas acciones,  en caso de colocar otro slider se recomienda colocar el numero perteneciente al numero que sigue, en el caso de 1 (mc1) colocar 2 y así (mc2) para el proximo carousel-->
+
+		<!---------- Slider Header --------->
+		<section id="slider">
+			<!--<img src="img/Rotador03.jpg" alt="">-->
+			<div class="carousel carousel-slider">
+				<a class="carousel-item slide-head1" href="#one!">
+					<img src="img/rotador/ROTADOR01-Info.png" alt="" class="slide-img1">
+					<img src="img/rotador/ROTADOR01-Producto.png" alt="" class="slide-img2">
+				</a>
+				<a class="carousel-item slide-head2" href="#two!">
+					<img src="img/rotador/ROTADOR02-Info.png" alt="" class="slide-img1">
+					<img src="img/rotador/ROTADOR02-Producto.png" alt="" class="slide-img2">
+				</a>
+				<a class="carousel-item slide-head1" href="#one!">
+					<img src="img/rotador/ROTADOR01-Info.png" alt="" class="slide-img1">
+					<img src="img/rotador/ROTADOR01-Producto.png" alt="" class="slide-img2">
+				</a>
+				<a class="carousel-item slide-head2" href="#two!">
+					<img src="img/rotador/ROTADOR02-Info.png" alt="" class="slide-img1">
+					<img src="img/rotador/ROTADOR02-Producto.png" alt="" class="slide-img2">
+				</a>
+			</div>
+		</section>
 
 
+		<!---------- Primer Servicio --------->
+		<section class="slide1 owl-slides">
 
-
-<!---------- Primer Servicio --------->
-<section class="slide1 owl-slides">		
-
-<div class="service-tittles container">
-	<div class="st-img-container"><img src="img/iconos-small/IconoRECARGAS.svg" alt=""></div>
-	<p>RECARGA DE SALDO</p>
-	<div class="cont-lineas">
-		<div class="borde-azul"></div>
-		<div class="linea-morada"></div>
-		<div class="borde-azul"></div>
-	</div>
-</div>
-			
-<div class="main-content mc1 container" id="mc1"> 
-	<div class="owl-one owl-carousel owl-theme">
-		<div class="item-inner movistar in-1 scrollTo" href="#mc1" id="movistar"><div class="item"><img src="img/MovistarLogo01.svg" alt=""></div></div>
-		<div class="item-inner digitel in-1 scrollTo" href="#mc1" id="digitel"><div class="item"><img src="img/DigitelLogo01.svg" alt=""></div></div>
-		<div class="item-inner movilnet in-1 scrollTo" href="#mc1" id="movilnet"><div class="item"><img src="img/MovilnetLogo01.svg" alt=""></div></div>
-		<div class="item-inner globalink in-1 scrollTo" href="#mc1" id="globalink"><div class="item"><img src="img/GloballinkLogo01.svg" alt=""></div></div>
-		<div class="item-inner telcel in-1 scrollTo" href="#mc1" id="telcel"><div class="item"><img src="img/TelcelLogo01.svg" alt=""></div></div>
-		<div class="item-inner claro in-1 scrollTo" href="#mc1" id="claro"><div class="item"><img src="img/ClaroLogo01.svg" alt=""></div></div>
-		<!--<div class="item-inner"><div class="item"><h4>7</h4></div></div>-->
-	</div>
-	<div class="owl-theme">
-		<div class="owl-controls">
-			<div class="custom-nav cnav1 owl-nav"></div>
-		</div>
-	</div>
-	<!-- Contenido del servicio 1 -->
-	<div class="servicio-content1 sc-bg" id="servicio-content1">
-		<div class="sc-inner">
-			<i class="fa fa-times close" aria-hidden="true"></i>
-			<div class="serv-inner-info info1">	
-				<div class="serv-inn-logo">
-					<img src="img/MovistarLogo01.svg" alt="">
+			<div class="service-tittles container">
+				<div class="st-img-container"><img src="img/iconos-small/IconoRECARGAS.svg" alt=""></div>
+				<p>RECARGA DE SALDO</p>
+				<div class="cont-lineas">
+					<div class="borde-azul"></div>
+					<div class="linea-morada"></div>
+					<div class="borde-azul"></div>
 				</div>
-				<div class="barra-vert"></div>
-				<div class="serv-inn-info">
-					<div class="serv-inn-info-container">
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt=""><p>PREPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt=""><p>POSTPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt=""><p>DIRECTORIO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt=""><p>FRECUENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt=""><p>RECIENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt=""><p>HISTORIAL</p></div>
-					</div>	
+			</div>
+
+			<div class="main-content mc1 container" id="mc1">
+				<div class="owl-one owl-carousel owl-theme">
+					<div class="item-inner movistar in-1 scrollTo" href="#mc1" id="Movistar">
+						<div class="item"><img src="img/MovistarLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner digitel in-1 scrollTo" href="#mc1" id="Digitel">
+						<div class="item"><img src="img/DigitelLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner movilnet in-1 scrollTo" href="#mc1" id="Movilnet">
+						<div class="item"><img src="img/MovilnetLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner globalink in-1 scrollTo" href="#mc1" id="Globallink">
+						<div class="item"><img src="img/GloballinkLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner telcel in-1 scrollTo" href="#mc1" id="Telcel">
+						<div class="item"><img src="img/TelcelLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner claro in-1 scrollTo" href="#mc1" id="Claro">
+						<div class="item"><img src="img/ClaroLogo01.svg" alt=""></div>
+					</div>
+					<!--<div class="item-inner"><div class="item"><h4>7</h4></div></div>-->
 				</div>
-				<div class="content-info-more">
-					 <i class="material-icons">star_border</i>
-					 <a href="#">Recarga de Saldo</a>
-				</div>
-			</div>	
-			<div class="serv-inner-info info2">	
-				<div class="serv-inn-logo">
-					<img src="img/DigitelLogo01.svg" alt="">
-				</div>
-				<div class="barra-vert"></div>
-				<div class="serv-inn-info">
-					<div class="serv-inn-info-container">
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt=""><p>PREPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt=""><p>POSTPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt=""><p>DIRECTORIO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt=""><p>FRECUENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt=""><p>RECIENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt=""><p>HISTORIAL</p></div>
+				<div class="owl-theme">
+					<div class="owl-controls">
+						<div class="custom-nav cnav1 owl-nav"></div>
 					</div>
 				</div>
-				<div class="content-info-more">
-					 <i class="material-icons">star_border</i>
-					 <a href="#">Recarga de Saldo</a>
-				</div>
-			</div>	
-		</div>
-	</div>
-</div>
-</section>		
-			
-			
-<!---------- Segundo Servicio --------->				
-<section class="slide1 owl-slides">		
+				<!-- Contenido del servicio 1 -->
+				<div class="servicio-content1 sc-bg" id="servicio-content1">
+					<div class="sc-inner">
+						<img src="img/iconos-small/IconoEquis.svg" alt="" class="close">
+						<div class="volver">
+							<img src="img/iconos-small/IconoVolver.svg" alt="">
+						</div>
+						<div class="serv-inner-info info1 content-open">
+							<div class="serv-inn-logo">
+								<img src="" alt="" class="brand-serv1">
+							</div>
+							<div class="barra-vert"></div>
 
-<div class="service-tittles container">
-	<div class="st-img-container"><img src="img/iconos-small/IconoMultipagos.svg" alt=""></div>
-	<p>MULTIPAGOS</p>
-	<div class="cont-lineas">
-		<div class="borde-azul"></div>
-		<div class="linea-morada"></div>
-		<div class="borde-azul"></div>
-	</div>
-</div>
-		
-				
-<div class="main-content mc2 container" id="mc2">
-	<div class="owl-two owl-carousel owl-theme">
-		<div class="item-inner inter in-2 scrollTo" href="#mc2" id="movistar2"><div class="item"><img src="img/InterLogo01.svg" alt=""></div></div>
-		<div class="item-inner directv in-2 scrollTo" href="#mc2" id="digitel2"><div class="item"><img src="img/DirectvLogo01.svg" alt=""></div></div>
-		<div class="item-inner cines in-2 scrollTo" href="#mc2" id="movilnet2"><div class="item"><img src="img/iconos-small/CinesUnidosLogo01%20(2).svg" alt=""></div></div>
-	</div>
-	<div class="owl-theme">
-		<div class="owl-controls">
-			<div class="custom-nav cnav2 owl-nav"></div>
-		</div>
-	</div>
-	<!-- Contenido del servicio 2 -->
-	<div class="servicio-content2 sc-bg" id="servicio-content2">
-		<div class="sc-inner">
-			<i class="fa fa-times close" aria-hidden="true"></i>
-			<div class="serv-inner-info info1">	
-				<div class="serv-inn-logo">
-					<img src="img/MovistarLogo01.svg" alt="">
-				</div>
-				<div class="barra-vert"></div>
-				<div class="serv-inn-info">
-					<div class="serv-inn-info-container">
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt=""><p>PREPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt=""><p>POSTPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt=""><p>DIRECTORIO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt=""><p>FRECUENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt=""><p>RECIENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt=""><p>HISTORIAL</p></div>
-					</div>	
-				</div>
-				<div class="content-info-more">
-					 <i class="material-icons">star_border</i>
-					 <a href="#">Recarga de Saldo</a>
-				</div>
-			</div>	
-			<div class="serv-inner-info info2">	
-				<div class="serv-inn-logo">
-					<img src="img/DigitelLogo01.svg" alt="">
-				</div>
-				<div class="barra-vert"></div>
-				<div class="serv-inn-info">
-					<div class="serv-inn-info-container">
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt=""><p>PREPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt=""><p>POSTPAGO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt=""><p>DIRECTORIO</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt=""><p>FRECUENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt=""><p>RECIENTES</p></div>
-						<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt=""><p>HISTORIAL</p></div>
+							<div class="serv-inn-info">
+								<!-- SELECCIÓN DE SERVICIO -->
+								<div class="serv-inn-info-container sic-options">
+									<div class="ser-icon-cont prepago-1"><img src="img/iconos-small/IconoPrepago.svg" alt="">
+										<p>PREPAGO</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt="">
+										<p>POSTPAGO</p>
+									</div>
+									<div class="ser-icon-cont directorio-1"><img src="img/iconos-small/IconoDirectorio.svg" alt="">
+										<p>DIRECTORIO</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt="">
+										<p>FRECUENTES</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt="">
+										<p>RECIENTES</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt="">
+										<p>HISTORIAL</p>
+									</div>
+								</div>
+
+
+								<!-- modulo de prepago -->
+								<div class="modulos prepago-mod">
+									<div class="serv-inn-info">
+										<div class="serv-inn-info-container">
+											<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt="">
+												<p>PREPAGO</p>
+											</div>
+										</div>
+									</div>
+									<div class="servs-container">
+										<div class="form-container-inner form-b">
+											<div class="form-header fh2">
+											</div>
+											<div class="modal-b-contrainer">
+												<div class="fci-inner">
+													<div class="row">
+														<form class="col s12 fr-padding-0 display-block" id="prepago-form1">
+															<div class="fr-clean">
+																<div class="row">
+																	<div class="input-field col s12">
+																		<input placeholder="" id="nombre-prepago" type="text" class="validate">
+																		<label for="nombre-prepago">Nombre: </label>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="input-field col s12">
+																		<input placeholder="" id="numero-prepago" type="text" class="validate">
+																		<label for="numero-prepago">Numero: </label>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="input-field col s12">
+																		<input placeholder="" id="monto-prepago" type="text" class="validate">
+																		<label for="monto-prepago">Monto: </label>
+																	</div>
+																</div>
+																<div class="flex-options" style="margin-top: 10px;">
+																	<div class="flex-options fx50">
+																		<span>Pagar con:</span>
+
+																		<div class="pag-saldo"><img src="img/iconos-small/Saldo02.svg" alt=""><span>Saldo</span></div>
+
+																		<div class="vert-gris"></div>
+
+																		<div class="ver-metpagos">
+																			<p>Ver otros métodos de pago</p>
+																		</div>
+																	</div>
+
+																	<div class="flex-options fx-rev">
+																		<input class="btn-morado btn-tiny2" type="submit" value="Recargar">
+
+																		<div class="checkbox checkbox-left">
+																			<label>
+																				<input type="checkbox" class="filled-in" style="display: none;" />
+																				<span>Registrar</span>
+																			</label>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+														</form>
+														<form class="col s12 fr-padding-0 display-none" id="prepago-form2">
+															<div class="input-field col s12">
+																<input placeholder="Buscar" id="pago-search" type="text" class="validate search">
+															</div>
+															<div class="fr-clean">
+																<table class="tab-serv-inner highlight">
+																	<tbody>
+																		<tr>
+																			<td class="nom-w">Mariana Navas</td>
+																			<td class="num-w">0412 5555555</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">José Figueroa</td>
+																			<td class="num-w">0412 5555555</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Oswaldo Hetchenleiner</td>
+																			<td class="num-w">0412 5555555</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Adriana Garcia</td>
+																			<td class="num-w">0412 5555555</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Jaimito Gonzales</td>
+																			<td class="num-w">0412 5555555</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w met-w-display">Eduardo José Ramirez </td>
+																			<td class="num-w met-w">0412 5555555</td>
+																		</tr>
+																	</tbody>
+																</table>
+
+																<div class="center-align" style="margin-top: 8px;">
+																	<input class="btn-verde btn-tiny3" type="button" value="Aceptar">
+																	<input class="btn-rojo btn-tiny3" type="button" value="Cancelar">
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="notif-y-btns">
+										<button class="btn-turquesa btn-tiny prep-dir" type="button" value="Recargar">Directorio</button>
+									</div>
+								</div>
+
+
+
+
+								<!-- modulo de Directorio -->
+								<div class="modulos directorio-mod" style="display: flex; flex-direction: row">
+									<div class="serv-inn-info">
+										<div class="serv-inn-info-container">
+											<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt="">
+												<p>DIRECTORIO</p>
+											</div>
+										</div>
+									</div>
+									<div class="servs-container">
+										<div class="form-container-inner form-b">
+											<div class="form-header fh2">
+											</div>
+											<div class="modal-b-contrainer">
+												<div class="fci-inner f-none">
+													<div class="row">
+														<form class="col s12 fr-padding-0" id="directorio">
+															<div class="input-field col s12">
+																<input placeholder="Buscar" id="dir1-search" type="text" class="validate search">
+															</div>
+															<div class="fr-clean">
+																<table class="tab-serv-inner highlight">
+																	<tbody>
+																		<tr>
+																			<td class="nom-w">Mariana Navas</td>
+																			<td class="num-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">José Figueroa</td>
+																			<td class="num-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Postpago">Postpago</option>
+																						<option value="Prepago">Prepago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Oswaldo Hetchenleiner</td>
+																			<td class="num-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Adriana Garcia</td>
+																			<td class="num-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w">Jaimito Gonzales</td>
+																			<td class="num-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="nom-w met-w-display">Eduardo José Ramirez </td>
+																			<td class="num-w met-w">0412 5555555</td>
+																			<td class="met-w">
+																				<div class="row">
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!--------- Mostrando en MOVIL ------>
+																<ul class="collapsible callapse-height collapsible-pagos">
+																	<li>
+																		<div class="collapsible-header">
+																			<div class="">
+																				<span>Mariana Navas</span>
+																			</div>
+																		</div>
+																		<div class="collapsible-body">
+																			<div class="cb-flex">
+																			<span class="num-w">0412 	5555555</span>
+																				<div >
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</div>	
+																		</div>
+																	</li>
+																	<li>
+																		<div class="collapsible-header">
+																			<div class="">
+																				<span>José Figueroa</span>
+																			</div>
+																		</div>
+																		<div class="collapsible-body">
+																			<div class="cb-flex">
+																			<span class="num-w">0412 	5555555</span>
+																				<div >
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</div>	
+																		</div>
+																	</li>
+																	<li>
+																		<div class="collapsible-header">
+																			<div class="">
+																				<span>Oswaldo Hetchenleiner</span>
+																			</div>
+																		</div>
+																		<div class="collapsible-body">
+																			<div class="cb-flex">
+																			<span class="num-w">0412 	5555555</span>
+																				<div >
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</div>	
+																		</div>
+																	</li>
+																	<li>
+																		<div class="collapsible-header">
+																			<div class="">
+																				<span>Adriana Garcia</span>
+																			</div>
+																		</div>
+																		<div class="collapsible-body">
+																			<div class="cb-flex">
+																			<span class="num-w">0412 	5555555</span>
+																				<div >
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</div>	
+																		</div>
+																	</li>
+																	<li>
+																		<div class="collapsible-header">
+																			<div class="">
+																				<span>Jaimito Gonzales</span>
+																			</div>
+																		</div>
+																		<div class="collapsible-body">
+																			<div class="cb-flex">
+																			<span class="num-w">0412 	5555555</span>
+																				<div >
+																					<select>
+																						<option value="Prepago">Prepago</option>
+																						<option value="Postpago">Postpago</option>
+																					</select>
+																				</div>
+																			</div>	
+																		</div>
+																	</li>
+																</ul>
+																<div class="center-align" style="margin-top: 8px;">
+																	<input class="btn-verde btn-tiny3" type="button" value="Aceptar">
+																	<input class="btn-rojo btn-tiny3" type="button" value="Cancelar">
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="notif-y-btns">
+										<div class="">
+											<p>Seleccione el contacto y la acción que desea realizar</p>
+										</div>
+										<div class="notif-btns">
+										<button class="btn-verde btn-tiny dir-agg" type="button" value="Recargar">Agregar</button>
+										<button class="btn-turquesa btn-tiny dir-edi" type="button" value="Recargar">Editar</button>
+										<button class="btn-rojo btn-tiny dir-eli" type="button" value="Recargar">Eliminar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-info-more">
+								<!--<i class="material-icons">star_border</i>-->
+								<img src="img/iconos-small/IconoFAVORITOS.svg" alt="" class="fav">
+							</div>
+						</div>
+
+
 					</div>
 				</div>
-				<div class="content-info-more">
-					 <i class="material-icons">star_border</i>
-					 <a href="#">Recarga de Saldo</a>
+			</div>
+		</section>
+
+
+		<!---------- Segundo Servicio Multipago --------->
+		<section class="slide1 owl-slides">
+
+			<div class="service-tittles container">
+				<div class="st-img-container"><img src="img/iconos-small/IconoMultipagos.svg" alt=""></div>
+				<p>MULTIPAGOS</p>
+				<div class="cont-lineas">
+					<div class="borde-azul"></div>
+					<div class="linea-morada"></div>
+					<div class="borde-azul"></div>
 				</div>
-			</div>		
-		</div>	
-	</div>
-</div>
-</section>		
-		
-<footer>
-   <div class="foot-container">
-   		<div class="ft-1">
-   			<img src="img/iconos-small/LogoPayallblanco02.svg" alt="">
-   			<p>Todos los derechos reservados. Asesores Digitales PLC, C.A.  rif. J-31762145-0</p>
-   		</div>
-   		<div class="ft-2">
-   			<div class="ft-2-rrss">
-   				<a href="#"><img src="img/iconos-small/IconoFacebook.svg" alt=""></a>
-   				<a href="#"><img src="img/iconos-small/IconoInstagram.svg" alt=""></a>
-   				<a href="#"><img src="img/iconos-small/IconoTwitter.svg" alt=""></a>
-   			</div>
-   			<h6>pagospayall</h6>
-   		</div>
-   </div>
-</footer>
-		
-		
-		<!-- Modal Structure-->
+			</div>
+
+
+			<div class="main-content mc2 container" id="mc2">
+				<div class="owl-two owl-carousel owl-theme">
+					<div class="item-inner inter in-2 scrollTo" href="#mc2" id="Inter">
+						<div class="item"><img src="img/InterLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner directv in-2 scrollTo" href="#mc2" id="Directv">
+						<div class="item"><img src="img/DirectvLogo01.svg" alt=""></div>
+					</div>
+					<div class="item-inner cines in-2 scrollTo" href="#mc2" id="Cinesunidos">
+						<div class="item"><img src="img/CinesUnidosLogo01.svg" alt=""></div>
+					</div>
+				</div>
+				<div class="owl-theme">
+					<div class="owl-controls">
+						<div class="custom-nav cnav2 owl-nav"></div>
+					</div>
+				</div>
+				<!-- Contenido del servicio 2 -->
+				<div class="servicio-content2 sc-bg" id="servicio-content2">
+					<div class="sc-inner">
+						<!--<i class="fa fa-times close" aria-hidden="true"></i>-->
+						<img src="img/iconos-small/IconoEquis.svg" alt="" class="close">
+						<div class="serv-inner-info info2">
+							<div class="serv-inn-logo">
+								<img src="" alt="" class="brand-serv2">
+							</div>
+							<div class="barra-vert"></div>
+							<div class="serv-inn-info">
+								<div class="serv-inn-info-container sic-options">
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoPrepago.svg" alt="">
+										<p>PREPAGO</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoPostpago.svg" alt="">
+										<p>POSTPAGO</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoDirectorio.svg" alt="">
+										<p>DIRECTORIO</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoFrecuentes.svg" alt="">
+										<p>FRECUENTES</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoRecientes.svg" alt="">
+										<p>RECIENTES</p>
+									</div>
+									<div class="ser-icon-cont"><img src="img/iconos-small/IconoHistorial.svg" alt="">
+										<p>HISTORIAL</p>
+									</div>
+								</div>
+							</div>
+							<div class="content-info-more">
+								<!--<i class="material-icons">star_border</i>-->
+								<img src="img/iconos-small/IconoFAVORITOS.svg" alt="" class="fav">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!---------- Footer --------->
+		<footer>
+			<div class="foot-container">
+				<div class="ft-1">
+					<img src="img/iconos-small/LogoPayallblanco02.svg" alt="">
+					<p>Todos los derechos reservados. Asesores Digitales PLC, C.A. rif. J-31762145-0</p>
+				</div>
+				<div class="ft-2">
+					<div class="ft-2-rrss">
+						<a href="#"><img src="img/iconos-small/IconoFacebook.svg" alt=""></a>
+						<a href="#"><img src="img/iconos-small/IconoInstagram.svg" alt=""></a>
+						<a href="#"><img src="img/iconos-small/IconoTwitter.svg" alt=""></a>
+					</div>
+					<h6>pagospayall</h6>
+				</div>
+			</div>
+		</footer>
+
+
+		<!-- Modal Structure Pagos -->
 		<div id="modal1" class="modal modal-pagos">
 			<div class=" flex-pagos">
 
@@ -358,7 +703,7 @@
 								<form class="col s12">
 									<div class="row">
 										<div class="input-field col s12">
-											<input placeholder="Buscar" id="send-pay-asunto" type="text" class="validate">
+											<input placeholder="Buscar" id="dir2-search" type="text" class="validate search">
 										</div>
 										<div class="users-list-container">
 											<!--------- Mostrando en DESKTOP ------>
@@ -531,184 +876,197 @@
 									<input class="btn-rojo btn-tiny" type="button" value="Eliminar">
 								</div>
 							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
- <!-- Modal Structure Billetera-->
-  <div id="modal-billetera" class="modal">
-    <div class="modal-content">
-    <div class="form-container-inner form-b">
-			<div class="form-header fh2">
-				<img src="img/Billetera.svg" alt="">
-			</div>
-			<div class="modal-b-contrainer">
-				<h6>RECARGAR BILLETERA</h6>
-				<div class="linea-gris"></div>
-				<div class="fci-inner">
-					<div class="row">
-						<form class="col s12 fr-padding-0" onsubmit="return validar();" id="">
-							<div class="fr-clean">
-								<div class="row">
-									<div class="input-field col s12">
-										<input placeholder="" id="monto" type="text" class="validate">
-										<label for="monto">Monto de recarga: </label>
+	<!-- Modal Structure Billetera-->
+	<div id="modal-billetera" class="modal">
+		<div class="modal-content">
+			<div class="form-container-inner form-b">
+				<div class="form-header fh2">
+					<img src="img/Billetera.svg" alt="">
+				</div>
+				<div class="modal-b-contrainer">
+					<h6>RECARGAR BILLETERA</h6>
+					<div class="linea-gris"></div>
+					<div class="fci-inner">
+						<div class="row">
+							<form class="col s12 fr-padding-0" onsubmit="return validar();" id="">
+								<div class="fr-clean">
+									<div class="row">
+										<div class="input-field col s12">
+											<input placeholder="" id="monto" type="text" class="validate">
+											<label for="monto">Monto de recarga: </label>
+										</div>
+									</div>
+									<p>Seleccione el método de pago</p>
+									<div class="flex-buttons">
+										<div class="btns-div btn1 button-fill-right color-blanco"><img src="img/iconos-small/IconoTarjeta.svg" alt="" class="btn-img1"><span>Tarjeta de Débito</span>
+										</div>
+										<div class="btns-div btn2"><img src="img/iconos-small/IconoTarjeta2.svg" alt="" class="btn-img2"> <span>Tarjeta de Crédito</span></div>
+									</div>
+									<div class="switch-cards">
+										<div id="cards1" class="">
+											<ul class="collapsible coll2">
+												<li>
+													<div class="collapsible-header">
+														<span>Seleccione su tarjeta de Débito</span>
+													</div>
+													<div class="collapsible-body">
+														<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
+														<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div id="cards2" class="card-close">
+											<ul class="collapsible coll2">
+												<li>
+													<div class="collapsible-header">
+														<span>Seleccione su tarjeta de Crédito</span>
+													</div>
+													<div class="collapsible-body">
+														<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
+														<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
+														<div class="nro-tarjeta"><span>Tarjeta Venezuela N° ************ 6819</span></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="center-align" style="margin-top: 20px;">
+										<input class="btn-turquesa btn-tiny" type="button" value="Recargar">
 									</div>
 								</div>
-								<p>Seleccione el método de pago</p>
-								<div class="flex-buttons">
-									<div class="btns-div btn1 button-fill-right color-blanco"><img src="img/iconos-small/IconoTarjeta.svg" alt="" class="btn-img1"><span>Tarjeta de Débito</span>
-									</div>
-									<div class="btns-div btn2"><img src="img/iconos-small/IconoTarjeta2.svg" alt="" class="btn-img2"> <span>Tarjeta de Crédito</span></div>
-								</div>
-								<div class="switch-cards">
-								<div id="cards1" class="">
-									<ul class="collapsible coll2">
-										<li>
-											<div class="collapsible-header">
-												<span>Seleccione su tarjeta de Débito</span>
-											</div>
-											<div class="collapsible-body">
-												<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
-												<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div id="cards2" class="card-close">
-									<ul class="collapsible coll2">
-										<li>
-											<div class="collapsible-header">
-												<span>Seleccione su tarjeta de Crédito</span>
-											</div>
-											<div class="collapsible-body">
-												<div class="nro-tarjeta"><span>Tarjeta BNC N° ************ 5708 </span></div>
-												<div class="nro-tarjeta"><span>Tarjeta Banesco N° ************ 6819</span></div>
-												<div class="nro-tarjeta"><span>Tarjeta Venezuela N° ************ 6819</span></div>
-											</div>
-										</li>
-									</ul>
-								</div>
-								</div>
-								<div class="center-align" style="margin-top: 20px;">
-									<input class="btn-turquesa btn-tiny" type="button" value="Recargar">
-								</div>
-							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-    </div>
-  </div>
-		
-		
-</div>				
+	</div>
+
+
+
+
+	</div>
+
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$('.owl-one').owlCarousel({
+			stagePadding: 60,
+			loop: true,
+			smartSpeed: 750, // duration of change of 1 slide
+			margin: 10,
+			nav: true,
+			navText: [
+				'<i class="fa fa-angle-left" aria-hidden="true"></i>',
+				'<i class="fa fa-angle-right" aria-hidden="true"></i>'
+			],
+			navContainer: '.mc1 .cnav1',
+			responsive: {
+				0: {
+					items: 2
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 4
+				}
+			}
+		});
+		$('.owl-two').owlCarousel({
+			stagePadding: 60,
+			loop: true,
+			smartSpeed: 750, // duration of change of 1 slide
+			margin: 10,
+			nav: true,
+			navText: [
+				'<i class="fa fa-angle-left" aria-hidden="true"></i>',
+				'<i class="fa fa-angle-right" aria-hidden="true"></i>'
+			],
+			navContainer: '.mc2 .cnav2',
+			responsive: {
+				0: {
+					items: 2
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 3
+				}
+			}
+		})
+
+	</script>
+
+
+	<script>
+		$(document).ready(function() {
+			$('.modal').modal();
+		});
+
+	</script>
+
+	<script>
+		// Or with jQuery
+
+		$('.carousel.carousel-slider').carousel({
+			fullWidth: true,
+			indicators: true,
+			interval:5000,
+			transition:800,
 			
-<script src="js/owl.carousel.js"></script>
-<script>
-$('.owl-one').owlCarousel({
-    stagePadding: 60,
-    loop:true,
-	smartSpeed: 750, // duration of change of 1 slide
-    margin:10,
-    nav:true,
-	navText: [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-    ],
-	navContainer: '.mc1 .cnav1',
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-});
-	$('.owl-two').owlCarousel({
-    stagePadding: 60,
-    loop:true,
-	smartSpeed: 750, // duration of change of 1 slide
-    margin:10,
-    nav:true,
-	navText: [
-        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-    ],
-	navContainer: '.mc2 .cnav2',
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:3
-        }
-    }
-})		
-</script>
+		});
+		/*autoplay();
+		function autoplay() {
+    	$('.carousel').carousel('next');
+    	setTimeout(autoplay, 4500);
+}*/
+
+		
+
+	</script>
+
+	<script>
+		$(document).ready(function() {
+			$('.collapsible').collapsible();
+		});
+
+	</script>
+
+
+	<script>
+		$('.dropdown-trigger').dropdown({
+			inDuration: 300,
+			outDuration: 225,
+			constrain_width: true, // Does not change width of dropdown to that of the activator
+			hover: false, // Activate on hover
+			alignment: 'right' // Displays dropdown with edge aligned to the left of button
+		});
+
+	</script>
 
 <script>
-	/*$('.sidebar-menu').click(function(){
-		if($('.sidebar-menu').hasClass('sidebar-active')){
-			$('.sidebar-menu').removeClass('sidebar-active');
-			$('#sidebar').css('transform','translateX(-270px)');
-		}else{
-			$('.sidebar-menu').addClass('sidebar-active');
-			$('#sidebar').css('transform','translateX(0)');
-		}
-	});*/
-</script>
+	$(document).ready(function() {
+		$('select').formSelect();
+	});
 
-<script>
 
 	$(document).ready(function() {
-		$('.modal').modal();
+		$('.collapsible').collapsible();
 	});
-</script>
 	
-<script>
-  // Or with jQuery
-
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
-        	
 </script>
-	
-<script>
-	$(document).ready(function() {
-	$('.collapsible').collapsible();
-	});
-</script>
+	<script src="js/script.js"></script>
 
-
-<script>
-
-$('.dropdown-trigger').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrain_width: true, // Does not change width of dropdown to that of the activator
-      hover: false, // Activate on hover
-      alignment: 'right' // Displays dropdown with edge aligned to the left of button
-    });
-
-</script>
-
-<script src="js/script.js"></script>
-			
 </body>
 <html>
